@@ -12,31 +12,28 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>babyshark.mov - View a random Pi song video</title>
-        <meta
-          name="description"
-          content="3.14159.mov is a website where you can view a random Pi song video. Enjoy entertaining and educational songs about the mathematical constant Pi."
-        />
+        <title>babyshark.mov - Play Baby Shark Videos</title>
+        <meta name="description" content="babyshark.mov is a website dedicated to playing Baby Shark videos." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="Pi, song video, circle, mathematics, entertainment" />
+        <meta name="keywords" content="Baby Shark, children's song, educational, video website" />
         <meta name="robots" content="index, follow" />
 
-        <meta property="og:title" content="3.14159.mov - View a random Pi song video" />
+        <meta property="og:title" content="babyshark.mov - Play Baby Shark Videos" />
         <meta
           property="og:description"
-          content="3.14159.mov is a website where you can view a random Pi song video. Enjoy entertaining and educational songs about the mathematical constant Pi."
+          content="babyshark.mov is a website dedicated to playing Baby Shark videos."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://3.14159.mov" />
-        <meta property="og:image" content="/pi.png" />
+        <meta property="og:url" content="https://babyshark.mov" />
+        <meta property="og:image" content="/android-chrome-512x512.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="3.14159.mov - View a random Pi song video" />
+        <meta name="twitter:title" content="babyshark.mov - Play Baby Shark Videos" />
         <meta
           name="twitter:description"
-          content="3.14159.mov is a website where you can view a random Pi song video. Enjoy entertaining and educational songs about the mathematical constant Pi."
+          content="babyshark.mov is a website dedicated to playing Baby Shark videos."
         />
-        <meta name="twitter:image" content="/pi.png" />
+        <meta name="twitter:image" content="/android-chrome-512x512.png" />
 
         <link rel="icon" href="/favicon.ico" />
         <script
@@ -51,7 +48,7 @@ export default function Home() {
 
         <div className="mt-2 flex gap-2">
           <a
-            href="https://twitter.com/intent/tweet/?text=View%20a%20random%20Pi%20song%20video&url=https%3A%2F%2F3.14159.mov"
+            href="https://twitter.com/intent/tweet/?text=Play%20Baby%20Shark%20Videos&url=https%3A%2F%2Fbabyshark.mov"
             target="_blank"
             className="text-[#1da1f2] font-medium text-sm px-5 py-2.5 text-center inline-flex items-center hover:opacity-80"
           >
