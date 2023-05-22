@@ -21,7 +21,7 @@ export default function Content() {
     );
   };
 
-  const videoList = ["XqZsoesa55w"];
+  const videoList = ["XqZsoesa55w", "4bMOTTJqGgM", "020g-0hhCAU"];
 
   const randomVideoIndex = Math.floor(Math.random() * videoList.length);
   const currentVideoId = videoList[randomVideoIndex];
